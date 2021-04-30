@@ -27,8 +27,8 @@ function validatePassword(password, passwordConfirmaion) {
     return alert("Password does not match");
   }
   if (password.length >= 5) {
-    //check if password has more than 4 chars
-    return alert("Password Empty");
+    //check if password has more than 5 chars
+    return alert("Your form succesfuly sent");
   }
   return true;
 }
